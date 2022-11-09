@@ -15,6 +15,14 @@ int main()
             tn = t1;
             printf("tribbonacci(%d) = %d", n, tn);
         }
+    else if( n==1 ){
+            tn = t2;
+            printf("tribbonacci(%d) = %d", n, tn);
+        }
+    else if( n==2 ){
+            tn = t3;
+            printf("tribbonacci(%d) = %d", n, tn);
+        }
     else{
         for(i=3;i<n;i++){
             tn = t1 + t2 + t3;
